@@ -1,0 +1,21 @@
+{
+  "name": "react-todo-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "json-server": "^0.12.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-scripts": "1.1.0",
+    "semantic-ui-css": "^2.2.14",
+    "semantic-ui-react": "^0.78.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "server": "json-server --watch db.json --port 4500",
+    "eject": "react-scripts eject",
+    "prod": "node server.js"
+  }
+}
